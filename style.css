@@ -29,10 +29,6 @@ XL > 1280px
 */
 
 
-
-
-
-
 /* =================Header et menu 
 */
 .entry-header .entry-title {
@@ -338,7 +334,11 @@ min-width : 400px;
 	min-height: 600px;
 	padding-bottom: 40px;
 	min-width : 400px;
+    padding-left:50px;
+    padding-right:50px;
 }
+
+
 
 
 .page-id-484 .formations h3 {
@@ -423,6 +423,20 @@ min-width : 400px;
 
 }
 
+/* =================Hebergement
+*/
+
+/*.table-hosting {
+
+}
+
+.table-hosting-th {
+	
+}
+
+.table-hosting-td {
+
+}*/
 
 /* =================Contact
 */
