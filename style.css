@@ -375,6 +375,7 @@ color: #8c8c8c;
 	padding-left: 20%;
 	padding-right: auto;
 	padding-top: 2%;
+	border-bottom:0;
 }
 
 h1 {
@@ -414,3 +415,8 @@ h3 {
 .page-id-484 .entry-title {
     font-size: 0px;
 } 
+
+.nav-single + .comments-area {
+	max-width:60%;
+	margin:auto;
+}
