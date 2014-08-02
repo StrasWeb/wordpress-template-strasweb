@@ -18,6 +18,15 @@ Template: twentytwelve
     margin: 0;
 }
 
+/* Breakpoints */
+
+/*
+XL > 1280px
+1279px > Large > 1024px
+1023px > Medium > 768px
+785px > Small
+*/
+
 
 /* =================Header et menu 
 */
@@ -175,6 +184,19 @@ padding-top: 20px;
 	font-weight: 300;
 	font-size : 20px;
 	text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .services {
+        padding:0;
+    }
+    .services ul {
+        width: 100%;
+    }
+    .services ul li {
+        display: inline-block; 
+        width: 29%;
+    }
 }
 
 .services ul {
