@@ -7,10 +7,4 @@ function excludeSlides($query)
 }
 add_action('pre_get_posts', 'excludeSlides');
 
-// Shortcodes 
-function dernieres_realisations_func( $atts ){
-	return "foo and bar";
-}
-add_shortcode( 'dernieres_realisations', 'dernieres_realisations_func' );
-
 ?>
