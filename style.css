@@ -29,10 +29,6 @@ XL > 1280px
 */
 
 
-
-
-
-
 /* =================Header et menu 
 */
 .entry-header .entry-title {
@@ -406,6 +402,20 @@ min-width : 400px;
 
 }
 
+/* =================Hebergement
+*/
+
+/*.table-hosting {
+
+}
+
+.table-hosting-th {
+	
+}
+
+.table-hosting-td {
+
+}*/
 
 /* =================Contact
 */
