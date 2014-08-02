@@ -7,7 +7,7 @@ Template: twentytwelve
 */
 @import url("../twentytwelve/style.css");
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Kreon:400,300,700);
 
 .site {
@@ -80,27 +80,6 @@ padding-top: 20px;
 	max-width:50%;
 	position:relative;
 	padding-right: 15%;
-}
-
-@media (max-width: 1280px) {
-	img.header-image {
-		margin-left: 10%;
-	}
-
-	.main-navigation {
-		padding-right:5%;
-		max-width:70%;
-	}
-}
-
-@media (max-width: 980px) {
-	img.header-image {
-		margin-left: 15%;
-	}
-	.main-navigation {
-		max-width:40%;
-		padding-right:15%;
-	}
 }
 
 
@@ -426,17 +405,20 @@ min-width : 400px;
 /* =================Hebergement
 */
 
-/*.table-hosting {
-
+.table-hosting {
+	width: 80%; 
 }
 
 .table-hosting-th {
-	
+	width: 20%;
+	font-weight: bold;
+	font-size : 25px;
 }
 
 .table-hosting-td {
-
-}*/
+	width: 20%;
+	text-align: left;
+}
 
 /* =================Contact
 */
