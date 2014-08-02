@@ -7,4 +7,15 @@ function excludeSlides($query)
 }
 add_action('pre_get_posts', 'excludeSlides');
 
+
+/**
+ * Enqueue scripts
+ */
+function theme_name_scripts() {
+	wp_enqueue_script( 'custom-scripts', get_stylesheet_directory_uri() . '/js/customscripts.js' );
+}
+
+add_action( 'wp_enqueue_scripts', 'theme_name_scripts' );
+
+
 ?>
