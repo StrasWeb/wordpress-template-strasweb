@@ -6,8 +6,8 @@ Author URI: http://strasweb.fr/
 Template: twentytwelve
 */
 @import url("../twentytwelve/style.css");
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
-@import url(http://fonts.googleapis.com/css?family=Kreon:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Kreon:400,300,700);
 
 .site {
    	max-width:none; 
