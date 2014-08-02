@@ -41,7 +41,7 @@ XL > 1280px
 }
 
 img.header-image {
-   margin-left: 10%;
+	margin-left: 15%;
 	float: left;
    box-shadow: none;
 	position:absolute;
@@ -81,9 +81,9 @@ padding-top: 20px;
 .main-navigation {
 	float: right;
 	padding-top: 30px;
-	max-width:60%;
+	max-width:50%;
 	position:relative;
-	padding-right: 5%;
+	padding-right: 15%;
 }
 
 
@@ -118,7 +118,7 @@ padding-top: 20px;
 .main-navigation li {
 	display: inline-block;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 17px;
 	}
 
 .main-navigation li {
@@ -482,7 +482,7 @@ color: #8c8c8c;
 
 .site-content article {
 	background-color : #f6f6f6;
-	max-width: 80%;
+	max-width: 70%;
 	margin: auto;
 	padding-top: 2%;
 	border-bottom:0;
@@ -527,6 +527,6 @@ h3 {
 } 
 
 .nav-single + .comments-area {
-	max-width:80%;
+	max-width:70%;
 	margin:auto;
 }
