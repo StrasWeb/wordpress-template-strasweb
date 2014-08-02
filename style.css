@@ -28,6 +28,10 @@ XL > 1280px
 */
 
 
+
+
+
+
 /* =================Header et menu 
 */
 .entry-header .entry-title {
@@ -109,7 +113,6 @@ padding-top: 20px;
 */
 
 
-
 /* =================Presentation
 */
 .about {
@@ -176,7 +179,7 @@ padding-top: 20px;
 	text-align: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .services {
         padding:0;
     }
@@ -204,6 +207,12 @@ padding-top: 20px;
 
 }
 
+.gallery .gallery-item img {
+padding: 0;
+border: none !important;
+border-radius: 0;
+}
+
 
 /* =================Réalisations
 */
@@ -216,6 +225,14 @@ padding-top: 20px;
 	min-height: 300px;
 	padding-bottom: 40px;
 min-width : 400px;
+}
+
+@media screen and (max-width: 1279px) {
+    .real {
+        padding-left:0;
+        padding-right:0;
+    }
+    
 }
 
 .page-id-484 .real h3 {
@@ -347,6 +364,48 @@ min-width : 400px;
 
 /* =================Contenu pages et articles
 */
+    
+    
+/* Galleries */
+
+.gallery dl.gallery-item {
+    width: 21% !important;
+    margin: 2%;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow:    0px 0px 15px 0px rgba(0, 0, 0, 0.36);
+    box-shadow:         0px 0px 15px 0px rgba(0, 0, 0, 0.36);
+}
+
+.gallery .gallery-item img {
+padding: 0;
+border: none !important;
+border-radius: 0;
+height: auto;
+width: 300px;
+max-width: 100%;
+}
+
+.gallery .gallery-item a {
+    width: 100%;
+}
+
+.gallery .gallery-caption {
+    background: #009ee0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: white;
+    font-size: 1.1em;
+    font-family: Kreon;
+    font-style: normal;
+    padding: 0.7em 0;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
 
 .site-content {
 	background-color : #f6f6f6;
