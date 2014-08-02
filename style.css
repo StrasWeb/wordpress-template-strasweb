@@ -7,6 +7,7 @@ Template: twentytwelve
 */
 @import url("../twentytwelve/style.css");
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Kreon:400,300,700);
 
 .site {
@@ -80,7 +81,7 @@ padding-top: 20px;
 .main-navigation {
 	float: right;
 	padding-top: 30px;
-	padding-left: 40%;
+	max-width:60%;
 	position:relative;
 	padding-right: 5%;
 }
@@ -109,7 +110,7 @@ padding-top: 20px;
 .main-navigation ul {
 	margin: 0;
 	text-indent: 0;
-	font-family:'Roboto';
+	font-family:'Roboto Condensed';
 	font-weight: bold;
 	}
 
@@ -119,6 +120,10 @@ padding-top: 20px;
 	text-decoration: none;
 	font-size: 20px;
 	}
+
+.main-navigation li {
+	margin-right:1em;
+}
 
 /* =================Panneaux du menu
 */
@@ -138,7 +143,7 @@ padding-top: 20px;
 .texte_about {
 	float: right;
 	color: #009ee0;
-	font-family: Roboto;
+	font-family:'Roboto Condensed';
 	font-weight:bold;
 	text-transform: uppercase;
 	font-size: 30px;
@@ -170,7 +175,7 @@ padding-top: 20px;
 
 .page-id-484 .services h3 {
 	text-align : center;
-	font-family: Roboto;
+	font-family:'Roboto Condensed';
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 30px;
@@ -201,6 +206,30 @@ padding-top: 20px;
         display: inline-block; 
         width: 29%;
     }
+}
+
+@media only screen and (min-width : 1024px) {
+
+	.services p {
+		font-weight:400;
+		font-size : 21px;
+	}
+
+	.page-id-484 .services h3 {
+		font-weight:500;
+		font-size: 35px;
+	}
+
+	.services h4 {
+		font-weight: 500;
+		font-size : 30px;
+	}
+
+	.services h5 {
+		font-weight:400;
+		font-size : 25px;
+		text-align: center;
+	}
 }
 
 .services ul {
@@ -248,7 +277,7 @@ min-width : 400px;
 
 .page-id-484 .real h3 {
 	text-align : center;
-	font-family: Roboto;
+	font-family:'Roboto Condensed';
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 25px;
@@ -273,7 +302,7 @@ min-width : 400px;
 .devis a {
 	text-decoration: none;
 	color: #fff;
-	font-family: Roboto;
+	font-family:'Roboto Condensed';
 	font-weight: bold;
 	font-size: 22px;
 }
@@ -294,7 +323,7 @@ min-width : 400px;
 
 .page-id-484 .formations h3 {
 	text-align : center;
-	font-family: Roboto;
+	font-family: Roboto Condensed;
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 30px;
@@ -346,9 +375,32 @@ min-width : 400px;
 .decouvrir_formations a {
 	text-decoration: none;
 	color: #fff;
-	font-family: Roboto;
+	font-family:'Roboto';
 	font-weight: bold;
 	font-size: 22px;
+}
+
+@media only screen and (min-width : 1024px) {
+
+	.page-id-484 .formations h3 {
+		font-size: 35px;
+		font-weight: 500;
+	} 
+
+	.formations h4 {
+		font-weight: 400;
+		font-size : 30px;
+	}
+
+	.formations h5 {
+		font-weight: 400;
+		font-size : 28px;
+	}
+
+	.texte_formations {
+		font-size : 25px;
+	}
+
 }
 
 
@@ -366,7 +418,7 @@ min-width : 400px;
 
 .page-id-484 .contact h3 {
 	text-align : center;
-	font-family: Roboto;
+	font-family:'Roboto Condensed';
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 30px;
@@ -421,7 +473,7 @@ max-width: 100%;
 .site-content {
 	background-color : #f6f6f6;
 	margin-top: 2%;
-	font-family: Roboto;
+	font-family:'Roboto';
 	font-weight: 300;
 	font-size: 16px;
 font-weight: 500;
@@ -430,9 +482,8 @@ color: #8c8c8c;
 
 .site-content article {
 	background-color : #f6f6f6;
-	max-width: 60%;
-	padding-left: 20%;
-	padding-right: auto;
+	max-width: 80%;
+	margin: auto;
 	padding-top: 2%;
 	border-bottom:0;
 }
@@ -440,19 +491,19 @@ color: #8c8c8c;
 h1 {
 	color: #e2007a;
 	font-size: 30px;
-	font-family: Roboto;
+	font-family:'Roboto';
 }
 
 h3 {
 	color: #e2007a;
-	font-family: Roboto;
+	font-family:'Roboto';
 }
 
 .entry-header .entry-title a {
     text-decoration: none;
 	color: #e2007a;
 	font-size: 30px;
-	font-family: Roboto;
+	font-family:'Roboto';
 }
 
 .page-id-484 article {
@@ -476,6 +527,6 @@ h3 {
 } 
 
 .nav-single + .comments-area {
-	max-width:60%;
+	max-width:80%;
 	margin:auto;
 }
