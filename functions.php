@@ -20,4 +20,16 @@ add_action( 'wp_enqueue_scripts', 'theme_name_scripts' );
 
 // Set post thumbnail sizes
 set_post_thumbnail_size( 300, 300, true );
+
+// Widget Area
+
+register_sidebar(array(
+		'name'=> 'Footer',
+		'id' => 'footer',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3>',
+		'after_title' => '</h3>',
+	));
+    
 ?>
