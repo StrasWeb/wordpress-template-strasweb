@@ -47,6 +47,16 @@ padding-top: 20px;
     margin : 0px;
 	padding: 0px;
 }
+
+.entry-content a {
+	text-decoration:none;
+	color: #e0007a;
+}
+
+.entry-content a:hover {
+	text-decoration:underline;
+}
+
 .site-header {
     padding-top: 0px;
 } 
