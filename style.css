@@ -6,6 +6,8 @@ Author URI: http://strasweb.fr/
 Template: twentytwelve
 */
 @import url("../twentytwelve/style.css");
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Kreon:400,300,700);
 
 .site {
    	max-width:none; 
@@ -83,7 +85,8 @@ padding-top: 20px;
 .main-navigation ul {
 	margin: 0;
 	text-indent: 0;
-	font-family:'robotobold_condensed';
+	font-family:'Roboto';
+	font-weight: bold;
 	}
 
 .main-navigation li a,
@@ -112,7 +115,8 @@ padding-top: 20px;
 .texte_about {
 	float: right;
 	color: #009ee0;
-	font-family: robotobold_condensed;
+	font-family: Roboto;
+	font-weight:bold;
 	text-transform: uppercase;
 	font-size: 30px;
 	max-width : 450px;
@@ -136,25 +140,29 @@ padding-top: 20px;
 	}
 
 .services p {
-	font-family: kreonlight;
+	font-family: Kreon;
+	font-weight:300;
 	font-size : 16px;
 }
 
 .page-id-484 .services h3 {
 	text-align : center;
-	font-family: robotobold_condensed;
+	font-family: Roboto;
+	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 30px;
 	color: #fff;
 	}
 
 .services h4 {
-	font-family: kreonlight;
+	font-family: Kreon;
+	font-weight: 300;
 	font-size : 25px;
 }
 
 .services h5 {
-	font-family: kreonlight;
+	font-family: Kreon;
+	font-weight: 300;
 	font-size : 20px;
 	text-align: center;
 }
@@ -190,7 +198,8 @@ min-width : 400px;
 
 .page-id-484 .real h3 {
 	text-align : center;
-	font-family: robotobold_condensed;
+	font-family: Roboto;
+	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 25px;
 	color : #009ee0;
@@ -214,7 +223,8 @@ min-width : 400px;
 .devis a {
 	text-decoration: none;
 	color: #fff;
-	font-family: robotobold;
+	font-family: Roboto;
+	font-weight: bold;
 	font-size: 22px;
 }
 
@@ -234,7 +244,8 @@ min-width : 400px;
 
 .page-id-484 .formations h3 {
 	text-align : center;
-	font-family: robotobold_condensed;
+	font-family: Roboto;
+	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 30px;
 	color: #fff;
@@ -242,18 +253,21 @@ min-width : 400px;
 
 
 .formations h4 {
-	font-family: kreonlight;
+	font-family: Kreon;
+	font-weight: 300;
 	font-size : 25px;
 }
 
 .formations h5 {
-	font-family: kreonlight;
+	font-family: Kreon;
+	font-weight: 300;
 	font-size : 20px;
 	text-align: center;
 }
 
 .texte_formations {
-	font-family: kreonlight;
+	font-family: Kreon;
+	font-weight: 300;
 	font-size : 22px;
 	max-width: 400px;
 	min-width: 200px;
@@ -282,7 +296,8 @@ min-width : 400px;
 .decouvrir_formations a {
 	text-decoration: none;
 	color: #fff;
-	font-family: robotobold;
+	font-family: Roboto;
+	font-weight: bold;
 	font-size: 22px;
 }
 
@@ -301,7 +316,8 @@ min-width : 400px;
 
 .page-id-484 .contact h3 {
 	text-align : center;
-	font-family: robotobold_condensed;
+	font-family: Roboto;
+	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 30px;
 	color: #009ee0;
@@ -313,7 +329,8 @@ min-width : 400px;
 .site-content {
 	background-color : #f6f6f6;
 	margin-top: 2%;
-	font-family: robotolight;
+	font-family: Roboto;
+	font-weight: 300;
 	font-size: 16px;
 font-weight: 500;
 color: #8c8c8c;
@@ -330,19 +347,19 @@ color: #8c8c8c;
 h1 {
 	color: #e2007a;
 	font-size: 30px;
-	font-family: robotoregular;
+	font-family: Roboto;
 }
 
 h3 {
 	color: #e2007a;
-	font-family: robotoregular;
+	font-family: Roboto;
 }
 
 .entry-header .entry-title a {
     text-decoration: none;
 	color: #e2007a;
 	font-size: 30px;
-	font-family: robotoregular;
+	font-family: Roboto;
 }
 
 .page-id-484 article {
@@ -364,96 +381,3 @@ h3 {
 .page-id-484 .entry-title {
     font-size: 0px;
 } 
-
-/* =================font-face
-*/
-
-@font-face {
-    font-family: 'robotocondensed';
-    src: url('fontface/roboto-condensed-webfont.eot');
-    src: url('fontface/roboto-condensed-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fontface/roboto-condensed-webfont.woff') format('woff'),
-         url('fontface/roboto-condensed-webfont.ttf') format('truetype'),
-         url('fontface/roboto-condensed-webfont.svg#robotocondensed') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'robotobold_condensed';
-    src: url('fontface/roboto-boldcondensed-webfont.eot');
-    src: url('fontface/roboto-boldcondensed-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fontface/roboto-boldcondensed-webfont.woff') format('woff'),
-         url('fontface/roboto-boldcondensed-webfont.ttf') format('truetype'),
-         url('fontface/roboto-boldcondensed-webfont.svg#robotobold_condensed') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'robotoregular';
-    src: url('fontface/roboto-regular-webfont.eot');
-    src: url('fontface/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fontface/roboto-regular-webfont.woff') format('woff'),
-         url('fontface/roboto-regular-webfont.ttf') format('truetype'),
-         url('fontface/roboto-regular-webfont.svg#robotoregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'robotobold';
-    src: url('fontface/roboto-bold-webfont.eot');
-    src: url('fontface/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fontface/roboto-bold-webfont.woff') format('woff'),
-         url('fontface/roboto-bold-webfont.ttf') format('truetype'),
-         url('fontface/roboto-bold-webfont.svg#robotobold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: 'robotolight';
-    src: url('fontface/roboto-light-webfont.eot');
-    src: url('fontface/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fontface/roboto-light-webfont.woff') format('woff'),
-         url('fontface/roboto-light-webfont.ttf') format('truetype'),
-         url('fontface/roboto-light-webfont.svg#robotolight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'kreonbold';
-    src: url('fontface/kreon-bold-webfont.eot');
-    src: url('fontface/kreon-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fontface/kreon-bold-webfont.woff') format('woff'),
-         url('fontface/kreon-bold-webfont.ttf') format('truetype'),
-         url('fontface/kreon-bold-webfont.svg#kreonbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'kreonlight';
-    src: url('fontface/kreon-light-webfont.eot');
-    src: url('fontface/kreon-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fontface/kreon-light-webfont.woff') format('woff'),
-         url('fontface/kreon-light-webfont.ttf') format('truetype'),
-         url('fontface/kreon-light-webfont.svg#kreonlight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'kreonregular';
-    src: url('fontface/kreon-regular-webfont.eot');
-    src: url('fontface/kreon-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fontface/kreon-regular-webfont.woff') format('woff'),
-         url('fontface/kreon-regular-webfont.ttf') format('truetype'),
-         url('fontface/kreon-regular-webfont.svg#kreonregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
