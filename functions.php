@@ -18,4 +18,6 @@ function theme_name_scripts() {
 add_action( 'wp_enqueue_scripts', 'theme_name_scripts' );
 
 
+// Set post thumbnail sizes
+set_post_thumbnail_size( 300, 300, true );
 ?>
