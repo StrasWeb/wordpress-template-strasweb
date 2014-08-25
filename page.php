@@ -23,6 +23,8 @@ get_header(); ?>
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
+<?php if (!is_front_page() && !is_home()){
+    get_sidebar();}
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+get_footer();
+?>

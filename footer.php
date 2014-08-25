@@ -13,6 +13,10 @@
 	<footer id="colophon" role="contentinfo">
 		<?php dynamic_sidebar('footer') ?>
 	</footer><!-- #colophon -->
+    <div class="clr"></div>
+    <footer id="lower-footer">
+        <?php wp_nav_menu(array( 'theme_location' => 'lower-footer')) ?>
+    </footer>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

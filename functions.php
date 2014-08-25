@@ -32,4 +32,17 @@ register_sidebar(array(
 		'after_title' => '</h3>',
 	));
     
+register_sidebar(array(
+		'name'=> 'Bottom Footer',
+		'id' => 'lower-footer',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3>',
+		'after_title' => '</h3>',
+	));
+    
+    
+// Menu
+register_nav_menu( 'lower-footer', 'Lower Footer' );
+    
 ?>
