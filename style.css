@@ -114,6 +114,7 @@ padding-top: 20px;
 	line-height: 2.5;
 	text-transform: uppercase;
 	white-space: nowrap;
+    font-weight: bold;
 
 	}
 
@@ -121,10 +122,10 @@ padding-top: 20px;
 	color: #e2007a;
 	}
 
-.main-navigation .current-menu-item > a,
-.main-navigation .current-menu-ancestor > a,
-.main-navigation .current_page_item > a,
-.main-navigation .current_page_ancestor > a {
+.main-navigation .nav-menu > .current-menu-item > a,
+.main-navigation .nav-menu > .current-menu-ancestor > a,
+.main-navigation .nav-menu > .current_page_item > a,
+.main-navigation .nav-menu > .current_page_ancestor > a {
 	border-bottom: solid 3px #e2007a;
 	}
 
@@ -143,6 +144,60 @@ padding-top: 20px;
 
 .main-navigation li {
 	margin-right:1em;
+}
+
+.main-navigation ul li:hover > ul {
+	margin-right:1em;
+    margin-left: -1em;
+    margin-top: 6px;
+}
+
+
+/* little arrow */
+
+.main-navigation ul li:hover > div.arrow {
+	height: 12px;
+    background-image: url('img/arrow.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width:100%;
+    padding:0;
+    margin:0;
+    margin-bottom: -6px;
+    margin-right: 17px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 10;
+}
+
+/* sub menu styles */
+.main-navigation ul.sub-menu {
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow:    0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    box-shadow:         0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    background: white;
+}
+
+.main-navigation ul.sub-menu li {
+    margin-right: 0;
+    background: none;
+    text-align: center;
+    width: 140px;
+    line-height: 1.2em;
+    
+}
+.main-navigation ul.sub-menu li a {
+    background: none;
+    font-size: 16px;
+    width: 120px;
+    font-weight: normal;
+    line-height: 1.3em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+}
+.main-navigation ul.sub-menu li a:hover {
+    background: none;
 }
 
 /* =================Panneaux du menu

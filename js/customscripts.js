@@ -1,5 +1,12 @@
 jQuery(document).ready(function($){
     
+    
+    /* Create plugin
+     * Linkified the caption of the gallery
+     * Called on a jQuery object, it searches for 
+     * children called .gallery-item, finds the 
+     * link used on the text and wraps it around the caption as well
+    */
     $.fn.extend({
         linkifyGalleryCaption: function() {
             var $galleryItems = $(this).children('.gallery-item');
@@ -11,7 +18,13 @@ jQuery(document).ready(function($){
         }
     })
     
+    
+    //Linkify homepage gallery
     $('.real .gallery').linkifyGalleryCaption();
+    
+    
+    //Add little arrows to sub-menu drop-downs
+    $('.sub-menu').before('<div class="arrow"></li>')
        
     
 });
