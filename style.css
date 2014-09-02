@@ -35,10 +35,22 @@ XL > 1280px
 
 /* =================Header et menu 
 */
-.entry-header .entry-title {
+.entry-header .entry-title, .archive-header .archive-title, .page-header .page-title {
   font-size: 30px;
   line-height:1.2;
+  
 }
+.archive-header .archive-title{
+    max-width: 70%;
+    margin: auto;
+    padding-top: 2em;
+    font-size: 36px;
+}
+.archive-header {
+    border:none;
+    margin-bottom: 0;
+}
+
 
 img.header-image {
 	margin-left: 15%;
@@ -66,8 +78,8 @@ padding-top: 20px;
 }
 
 .entry-content p, .entry-summary p,  .comment-content p {
-    margin : 0px;
-	padding: 0px;
+/*    margin : 0px;
+*/	padding: 0px;
 }
 
 .entry-content a:visited,
@@ -585,6 +597,9 @@ min-width : 400px;
 */
     
     
+.category .site-content  article {margin: 0 auto 60px auto ;}
+
+    
 /* Galleries */
 
 .gallery dl.gallery-item {
@@ -644,11 +659,12 @@ color: #777;
 	border-bottom:0;
 }
 
-.entry-header h1.entry-title, h1 {
+.entry-header h1.entry-title, h1.archive-title, h1.page-title, h1 {
 	color: #e2007a;
 	font-size: 42px;
 	font-family:'Roboto';
     font-weight: 200;
+    text-transform: none;
 }
 .entry-header h1.entry-title {
     margin-top: 1.4em;
@@ -661,6 +677,13 @@ color: #777;
 	font-family:'Roboto';
     font-weight: normal;
 }
+h2 a, h2 a:hover {
+    color:#009ee0; 
+}
+
+h2 a:hover {
+    text-decoration: underline;
+}
 
 .entry-content h3, h3 {
 	color: #e2007a;
@@ -669,7 +692,7 @@ color: #777;
     font-size: 1.25em;
 }
 
-.entry-header .entry-title a {
+.entry-header h1.entry-title a {
     text-decoration: none;
 	color: #e2007a;
 	font-size: 30px;
@@ -766,3 +789,5 @@ footer#lower-footer li:last-child:after {
         text-align: center;
     }
 }
+
+.site-content nav#nav-below {max-width: 70%; margin:auto;}
