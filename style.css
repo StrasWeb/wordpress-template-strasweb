@@ -758,3 +758,11 @@ footer#lower-footer li:after {
 footer#lower-footer li:last-child:after {
     content: '';
 }
+
+@media screen and (max-width: 599px) {
+    footer .widget {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
