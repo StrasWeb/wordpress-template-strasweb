@@ -790,4 +790,4 @@ footer#lower-footer li:last-child:after {
     }
 }
 
-.site-content nav#nav-below {max-width: 70%; margin:auto;}
+.site-content .nav-single {max-width: 70%; margin:auto;}
