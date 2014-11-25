@@ -23,6 +23,8 @@ Template: twentytwelve
     clear: both !important;
 }
 
+body {overflow: hidden;}
+
 /* Breakpoints */
 
 /*
@@ -281,8 +283,9 @@ padding-top: 20px;
 .about {
 	border-bottom : solid 5px #e2007a;
 	background-image: url(img/background_accueil.png);
-	background-position: center;
-	background-repeat: repeat-x;
+	background-position: top;
+	background-repeat: no-repeat;
+    background-size: cover;
 	min-height: 400px;
 	padding-top : 200px;
 }
@@ -296,6 +299,10 @@ padding-top: 20px;
 	font-size: 30px;
 	max-width : 450px;
 	padding-right: 10%;
+}
+
+@media screen and (max-width:756px) {
+    .texte_about {padding: 10%;}
 }
 
 .strasweb {
@@ -401,6 +408,19 @@ border-radius: 0;
 }
 
 
+@media screen and (max-width: 785px) {
+    .services ul li {
+    	max-width : 100%;
+    	width : auto;
+    	min-width : 0;
+    	text-align:center;
+    	float:none;
+        margin:0;
+        padding: 0 10px;
+
+    }
+}
+
 /* =================Réalisations
 */
 
@@ -414,10 +434,18 @@ border-radius: 0;
 min-width : 400px;
 }
 
+
+
 @media screen and (max-width: 1279px) {
     .real {
         padding-left:0;
         padding-right:0;
+        min-width: 0;
+    }
+    
+    @media screen and (max-width: 756px) {
+        .real #gallery-1 .gallery-item { float: none; width: auto !important;
+        }
     }
     
 }
@@ -441,8 +469,7 @@ min-width : 400px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
-	width: 350px;
-	margin-left: auto;
+max-width:350px;	margin-left: auto;
 	margin-right: auto;
 }
 
@@ -464,12 +491,20 @@ min-width : 400px;
 	padding-right: 15%;
 	min-height: 600px;
 	padding-bottom: 40px;
-	min-width : 400px;
     padding-left:50px;
     padding-right:50px;
 }
 
+.formations h5 + p {float: left; padding-right: 10%;}
 
+/* Medium Down */
+@media screen and (max-width: 1024px) {
+    .formations h5 + p {float: none; padding-right: 0; text-align: center;}
+    .texte_formations {text-align: center; float: none; width: 100%;}
+    .decouvrir_formations {
+        width: auto !important;
+    }
+}
 
 
 .page-id-484 .formations h3 {
@@ -499,12 +534,14 @@ min-width : 400px;
 	font-family: Kreon;
 	font-weight: 300;
 	font-size : 22px;
-	max-width: 400px;
+    margin-left: 100px;
 	min-width: 200px;
 	padding-top: 10%;
-	float: right;
 	padding-right: 10%;
 }
+
+
+
 
 .decouvrir_formations {
 	background-color: #ff67b9;
@@ -531,6 +568,22 @@ min-width : 400px;
 	font-size: 22px;
 }
 
+
+
+/* Medium Down */
+
+@media only screen and (max-width : 1023px) {
+
+
+.formations h5 + p {float: none; padding-right: 0; text-align: center;}
+.formations p .alignleft {float: none;}
+.texte_formations {text-align: center; float: none; margin-left: 0;}
+
+}
+
+
+/* Medium Up */
+
 @media only screen and (min-width : 1024px) {
 
 	.page-id-484 .formations h3 {
@@ -551,6 +604,10 @@ min-width : 400px;
 	.texte_formations {
 		font-size : 25px;
 	}
+    
+   
+   
+
 
 }
 
