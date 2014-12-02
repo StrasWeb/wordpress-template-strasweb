@@ -23,6 +23,11 @@ jQuery(document).ready(function($){
     $('.real .gallery').linkifyGalleryCaption();
     
     
+    // Make the menu work
+    $('.menu-toggle').click(function(){
+        $('.nav-menu').slideToggle();
+    })
+    
     //Add little arrows to sub-menu drop-downs
     $('.sub-menu').before('<div class="arrow"></li>')
        
