@@ -728,6 +728,10 @@ color: #777;
     margin-bottom: 1em;
 }
 
+.entry-header .attachment-post-thumbnail {
+	display:none;
+}
+
 .entry-content h2, h2 {
 	color: #009ee0;
 	font-size: 24px;
