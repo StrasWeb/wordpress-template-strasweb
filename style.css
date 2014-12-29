@@ -656,6 +656,9 @@ min-width : 400px;
     
 .category .site-content  article {margin: 0 auto 60px auto ;}
 
+.html5_video_gallery_video, .html5_video_gallery_thumb .wp-post-image {
+	max-width: 250px;
+}
     
 /* Galleries */
 
