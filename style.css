@@ -783,7 +783,8 @@ h2 a:hover {
     font-size: 0px;
 } 
 
-.nav-single + .comments-area {
+.nav-single + .comments-area,
+.comments-area {
 	max-width:70%;
 	margin:auto;
 }
