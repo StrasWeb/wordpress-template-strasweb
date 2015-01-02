@@ -327,7 +327,7 @@ padding-top: 20px;
 	font-size : 16px;
 }
 
-.page-id-484 .services h3 {
+.home .services h3 {
 	text-align : center;
 	font-family:'Roboto Condensed';
 	font-weight: bold;
@@ -369,7 +369,7 @@ padding-top: 20px;
 		font-size : 21px;
 	}
 
-	.page-id-484 .services h3 {
+	.home .services h3 {
 		font-weight:500;
 		font-size: 35px;
 	}
@@ -450,7 +450,7 @@ min-width : 400px;
     
 }
 
-.page-id-484 .real h3 {
+.home .real h3 {
 	text-align : center;
 	font-family:'Roboto Condensed';
 	font-weight: bold;
@@ -507,7 +507,7 @@ max-width:350px;	margin-left: auto;
 }
 
 
-.page-id-484 .formations h3 {
+.home .formations h3 {
 	text-align : center;
 	font-family: Roboto Condensed;
 	font-weight: bold;
@@ -586,7 +586,7 @@ max-width:350px;	margin-left: auto;
 
 @media only screen and (min-width : 1024px) {
 
-	.page-id-484 .formations h3 {
+	.home .formations h3 {
 		font-size: 35px;
 		font-weight: 500;
 	} 
@@ -641,7 +641,7 @@ max-width:350px;	margin-left: auto;
 min-width : 400px;
 }
 
-.page-id-484 .contact h3 {
+.home .contact h3 {
 	text-align : center;
 	font-family:'Roboto Condensed';
 	font-weight: bold;
@@ -763,7 +763,7 @@ h2 a:hover {
 	font-family:'Roboto';
 }
 
-.page-id-484 article {
+.home article {
 	background-color : #fff;
 	margin-top: 0%;
 	padding-left: 0%;
@@ -772,14 +772,14 @@ h2 a:hover {
 	padding-top: 0%;
 }
 
-.page-id-484 .site-content {
+.home .site-content {
 	background-color : #fff;
 	margin-top: 2%;
 	padding-left: 0%;
 	padding-right: 0%;
 }
 
-.page-id-484 .entry-title {
+.home .entry-title {
     font-size: 0px;
 } 
 
