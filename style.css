@@ -507,6 +507,11 @@ max-width:350px;	margin-left: auto;
     padding-right:50px;
 }
 
+.formations_wrapper {
+	max-width: 1200px;
+	margin:auto;
+}
+
 .formations h5 + p {float: left; padding-right: 10%;}
 
 /* Medium Down */
