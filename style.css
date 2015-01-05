@@ -25,6 +25,32 @@ Template: twentytwelve
 
 body {overflow: hidden;}
 
+/* http://matthewjamestaylor.com/blog/keeping-footers-at-the-bottom-of-the-page */
+html, body {
+	height:100%;
+	overflow:visible;
+}
+
+footer[role="contentinfo"] {
+	padding-bottom:60px;
+}
+
+.site {
+	min-height:100%;
+	position:relative;
+	overflow:visible;
+}
+
+[id=lower-footer] {
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+
+.clr {
+	min-height:40px;
+}
+
 /* Breakpoints */
 
 /*
