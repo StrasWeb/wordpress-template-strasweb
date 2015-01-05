@@ -313,6 +313,11 @@ padding-top: 20px;
 	padding-right: 10%;
 }
 
+.texte_about_wrapper {
+	margin:auto;
+	max-width:1300px;
+}
+
 @media screen and (max-width:756px) {
     .texte_about {padding: 10%;}
 }
