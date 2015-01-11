@@ -548,9 +548,9 @@ max-width:350px;	margin-left: auto;
 .formations h5 + p {float: left; padding-right: 10%;}
 
 /* Medium Down */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .formations h5 + p {float: none; padding-right: 0; text-align: center;}
-    .texte_formations {text-align: center; float: none; width: 100%;}
+    .formations .texte_formations {text-align: center; float: none; width: 100%; padding-right:0;}
     .decouvrir_formations {
         width: auto !important;
     }
@@ -903,6 +903,7 @@ footer#lower-footer li:last-child:after {
         width: 100%;
         float: none;
         text-align: center;
+	padding:0;
     }
 }
 
