@@ -157,6 +157,9 @@ padding-top: 20px;
 	}
 }
 
+.assistive-text {
+	display:none;
+}
 
 .main-navigation li a {
 	border-bottom: 0;
