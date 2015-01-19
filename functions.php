@@ -44,25 +44,5 @@ register_sidebar(array(
     
 // Menu
 register_nav_menu( 'lower-footer', 'Lower Footer' );
-
-function em_enqueue_fix() {
-	if(!is_admin()) {
-		$eventsScripts = array(
-			'jquery-ui-draggable',
-			'jquery-ui-position',
-			'jquery-ui-widget',
-			'jquery-ui-core',
-			'jquery-ui-mouse',
-			'jquery-ui-sortable',
-			'jquery-ui-datepicker',
-			'jquery-ui-autocomplete',
-			'jquery-ui-resizable',
-			'jquery-ui-button',
-			'jquery-ui-dialogue'
-			);
-		wp_dequeue_script( $eventsScripts );
-		wp_deregister_script( $eventsScripts );
-	}
-}
-add_action('init', 'em_enqueue_fix', 20);
+    
 ?>
