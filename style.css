@@ -843,6 +843,10 @@ h2 a:hover {
 	margin:auto;
 }
 
+.events-table-article td:nth-child(2) {
+	width:100%;
+}
+
 /* ============= Footer ============= */
 footer[role="contentinfo"] {border-top: none; margin-top: 0; padding-bottom: 40px;}
 
