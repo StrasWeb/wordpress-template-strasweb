@@ -664,6 +664,20 @@ max-width:350px;	margin-left: auto;
 
 }
 
+@media screen and (max-width: 785px) {
+	.em-location-map-container {
+		display:none;
+	}
+	.em-booking-form-details {
+		float:none;
+		width:auto;
+	}
+	div.em-booking-login {
+		border-left:none;
+		margin-left:0;
+	}
+}
+
 /* =================Hebergement
 */
 
