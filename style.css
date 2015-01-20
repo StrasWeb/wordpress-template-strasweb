@@ -676,6 +676,9 @@ max-width:350px;	margin-left: auto;
 		border-left:none;
 		margin-left:0;
 	}
+	.em-booking-form-details input.input, .em-booking-form-details textarea {
+		max-width:100%;
+	}
 }
 
 /* =================Hebergement
