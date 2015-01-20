@@ -864,6 +864,29 @@ h2 a:hover {
 	width:100%;
 }
 
+/* ============= Références ============= */
+@media screen and (max-width: 1024px) {
+	.gallery .gallery-caption {
+		font-size:0.9em;
+	}
+}
+
+@media screen and (max-width: 768px) {
+        .gallery dl.gallery-item {
+		width: 42% !important;
+	}
+	.gallery br {
+		display:none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.gallery .gallery-caption {
+		display:none;
+	}
+}
+
+
 /* ============= Footer ============= */
 footer[role="contentinfo"] {border-top: none; margin-top: 0; padding-bottom: 40px;}
 
