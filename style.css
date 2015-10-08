@@ -310,6 +310,57 @@ padding-top: 20px;
 	font-size: 42px;
 }
 
+/* =================Forms
+*/
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=password],
+textarea {
+	width: 100%;
+}
+
+.form-control.half-width {
+	width: 50%;
+   float: left;
+    box-sizing: border-box;
+}
+.form-control.half-width:nth-of-type(2n) {
+	clear: left;
+}
+.form-control {
+	
+	 padding: 1em;
+}
+.form-control.full-width {
+	clear: both;
+	width: 100%;
+}
+@media only screen and (max-width: 480px) {
+	.form-control, .form-control.half-width {
+		float: none;
+		width: 100%;
+	}
+}
+label {
+	color: #009ee0;
+}
+.text-center {
+	text-align: center;
+}
+.wpcf7-submit {
+    font-size: 17px !important;
+    background: none !important;
+    background-color: #009ee0 !important;
+    color: white !important;
+    border-radius: 0 !important;
+    padding: 0.8em 2em !important;
+    border: none !important;
+}
+.wpcf7-submit:hover {
+    background-color: #007CB0 !important;
+}
+
 /* =================Services
 */
 
