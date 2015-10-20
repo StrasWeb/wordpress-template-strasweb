@@ -770,6 +770,10 @@ color: #777;
 	border-bottom:0;
 }
 
+.page-template-full-width .site-content article {
+	max-width: 100%;
+}
+
 .entry-header h1.entry-title, h1.archive-title, h1.page-title, h1 {
 	color: #e2007a;
 	font-size: 42px;
