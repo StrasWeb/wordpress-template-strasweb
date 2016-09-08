@@ -1,11 +1,9 @@
 <?php
 /**
- * The template for displaying the footer
+ * The template for displaying the footer.
  *
  * Contains footer content and the closing of the #main and #page div elements.
  *
- * @package WordPress
- * @subpackage Twenty_Twelve
  * @since Twenty Twelve 1.0
  */
 ?>
@@ -15,7 +13,7 @@
 	</footer><!-- #colophon -->
     <div class="clr"></div>
     <footer id="lower-footer">
-        <?php wp_nav_menu(array( 'theme_location' => 'lower-footer')) ?>
+        <?php wp_nav_menu(['theme_location' => 'lower-footer']) ?>
     </footer>
 </div><!-- #page -->
 
